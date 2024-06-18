@@ -1,0 +1,100 @@
+{
+  "protectedResources": {
+    "users": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+    ],
+    "products": [
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+    ]
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "admin1",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "status": true,
+      "rol": "admin"
+    },
+    {
+      "id": 2,
+      "username": "carli",
+      "email": "carli@gmail.com",
+      "password": "carli",
+      "status": true,
+      "rol": "comprador"
+    },
+    {
+      "id": 3,
+      "username": "kevin",
+      "email": "kevin@gmail.com",
+      "password": "kevin",
+      "status": true,
+      "rol": "comprador"
+    },
+    {
+      "id": 4,
+      "username": "marta",
+      "email": "marta@gmail.com",
+      "password": "marta",
+      "status": true,
+      "rol": "vendedor"
+    },
+    {
+      "id": 5,
+      "username": "martina",
+      "email": "martina@gmail.com",
+      "password": "martina",
+      "status": true,
+      "rol": "vendedor"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productSeller": "nombre vendedor",
+      "productTitle": "remera",
+      "product1Category": "mujer",
+      "product2Category": "partes de arriba",
+      "productCondition": "nueva",
+      "productSize": "S",
+      "productDescription": "remera nueva, un solo uso",
+      "productPrice": 5880,
+      "imageUrl": "https://argentina-media.renuevatucloset.com/product/0259/72/thumb_25871162_product_medium.jpeg",
+      "estado": true
+    },
+    {
+      "id": 2,
+      "productSeller": "nombre vendedor",
+      "productTitle": "pantalon",
+      "product1Category": "hombre",
+      "product2Category": "partes de abajo",
+      "productCondition": "usada",
+      "productSize": "XL",
+      "productDescription": "pantalón usado, excelente estado casi nuevo y es hermoso",
+      "productPrice": 5100,
+      "imageUrl": "https://argentina-media.renuevatucloset.com/product/0259/56/thumb_25855647_product_medium.jpeg",
+      "estado": true
+    },
+    {
+      "id": 3,
+      "productSeller": "nombre vendedor",
+      "productTitle": "campera",
+      "product1Category": "niño",
+      "product2Category": "partes de arriba",
+      "productCondition": "usado",
+      "productSize": "L",
+      "productDescription": "campera de niño talle L, usado en buen estado",
+      "productPrice": 510000,
+      "imageUrl": "https://argentina-media.renuevatucloset.com/product/0259/63/thumb_25862426_product_medium.jpeg",
+      "estado": true
+    }
+  ]
+}
