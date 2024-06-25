@@ -20,7 +20,6 @@
       "username": "admin1",
       "email": "admin@gmail.com",
       "password": "admin",
-      "status": true,
       "rol": "admin"
     },
     {
@@ -28,7 +27,6 @@
       "username": "carli",
       "email": "carli@gmail.com",
       "password": "carli",
-      "status": true,
       "rol": "comprador"
     },
     {
@@ -36,7 +34,6 @@
       "username": "kevin",
       "email": "kevin@gmail.com",
       "password": "kevin",
-      "status": true,
       "rol": "comprador"
     },
     {
@@ -44,7 +41,6 @@
       "username": "marta",
       "email": "marta@gmail.com",
       "password": "marta",
-      "status": true,
       "rol": "vendedor"
     },
     {
@@ -52,14 +48,13 @@
       "username": "martina",
       "email": "martina@gmail.com",
       "password": "martina",
-      "status": true,
       "rol": "vendedor"
     }
   ],
   "products": [
     {
       "id": 1,
-      "productSeller": "nombre vendedor",
+      "productSeller": "marta",
       "productTitle": "remera",
       "product1Category": "mujer",
       "product2Category": "partes de arriba",
@@ -72,7 +67,7 @@
     },
     {
       "id": 2,
-      "productSeller": "nombre vendedor",
+      "productSeller": "kevin",
       "productTitle": "pantalon",
       "product1Category": "hombre",
       "product2Category": "partes de abajo",
@@ -85,7 +80,7 @@
     },
     {
       "id": 3,
-      "productSeller": "nombre vendedor",
+      "productSeller": "kevin",
       "productTitle": "campera",
       "product1Category": "niño",
       "product2Category": "partes de arriba",
