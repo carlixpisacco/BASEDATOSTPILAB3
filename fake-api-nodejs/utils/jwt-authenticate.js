@@ -3,7 +3,12 @@ import { CONFIG } from '../config.js';
 
 export const generateAccessToken = (user) => {
   return jwt.sign(
-    { sub: user.id, name: user.firstName + ' ' + user.lastName, avatar: user.avatar },
+    { sub: user.id,
+      username: String(user.username), 
+      email: String(user.email), 
+      status: String(user.status), 
+      rol: String(user.rol) 
+     },
     CONFIG.accessTokenSecret,
     {
       expiresIn: CONFIG.accessTokenExpiresInMinutes + 'm',

@@ -58,12 +58,14 @@
       "productTitle": "remera",
       "product1Category": "mujer",
       "product2Category": "partes de arriba",
-      "productCondition": "nueva",
+      "productCondition": "nuevo",
       "productSize": "S",
       "productDescription": "remera nueva, un solo uso",
       "productPrice": 5880,
       "imageUrl": "https://argentina-media.renuevatucloset.com/product/0259/72/thumb_25871162_product_medium.jpeg",
-      "estado": true
+      "estadoComprado": false,
+      "estado": true,
+      "modifiedAt": 1719582807557
     },
     {
       "id": 2,
@@ -71,11 +73,12 @@
       "productTitle": "pantalon",
       "product1Category": "hombre",
       "product2Category": "partes de abajo",
-      "productCondition": "usada",
+      "productCondition": "usado",
       "productSize": "XL",
       "productDescription": "pantalón usado, excelente estado casi nuevo y es hermoso",
       "productPrice": 5100,
       "imageUrl": "https://argentina-media.renuevatucloset.com/product/0259/56/thumb_25855647_product_medium.jpeg",
+      "estadoComprado": false,
       "estado": true
     },
     {
@@ -89,7 +92,40 @@
       "productDescription": "campera de niño talle L, usado en buen estado",
       "productPrice": 510000,
       "imageUrl": "https://argentina-media.renuevatucloset.com/product/0259/63/thumb_25862426_product_medium.jpeg",
+      "estadoComprado": false,
       "estado": true
+    },
+    {
+      "productSeller": "marta",
+      "productTitle": "pantalon",
+      "product1Category": "mujer",
+      "product2Category": "partes de abajo",
+      "productCondition": "usado",
+      "productSize": "M",
+      "productDescription": "pantalon nuevo casi sin uso, excelente estado",
+      "productPrice": 10700,
+      "imageUrl": "https://argentina-media.renuevatucloset.com/product/0261/35/thumb_26034108_product_medium.jpeg",
+      "estadoComprado": false,
+      "estado": true,
+      "createdAt": 1719498309697,
+      "modifiedAt": 1719584518072,
+      "id": 4
+    },
+    {
+      "productSeller": "marta",
+      "productTitle": "pollera",
+      "product1Category": "mujer",
+      "product2Category": "partes de abajo",
+      "productCondition": "usado",
+      "productSize": "M",
+      "productDescription": "pollera usada, pero en buen estado\ncuadrille\n65 cm de larga",
+      "productPrice": 6000,
+      "imageUrl": "https://argentina-media.renuevatucloset.com/product/0261/55/thumb_26054299_product_medium.jpeg",
+      "estadoComprado": false,
+      "estado": true,
+      "createdAt": 1719503336974,
+      "modifiedAt": 1719503336974,
+      "id": 5
     }
   ]
 }
