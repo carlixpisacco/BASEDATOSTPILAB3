@@ -6,7 +6,7 @@ export const generateAccessToken = (user) => {
     { sub: user.id,
       username: String(user.username), 
       email: String(user.email), 
-      status: String(user.status), 
+      estado: String(user.estado), 
       rol: String(user.rol) 
      },
     CONFIG.accessTokenSecret,

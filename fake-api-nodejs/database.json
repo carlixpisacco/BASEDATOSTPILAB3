@@ -20,41 +20,47 @@
       "username": "admin1",
       "email": "admin@gmail.com",
       "password": "admin",
-      "rol": "admin"
+      "rol": "admin",
+      "estado": true
     },
     {
       "id": 2,
       "username": "carli",
       "email": "carli@gmail.com",
       "password": "carli",
-      "rol": "comprador"
+      "rol": "comprador",
+      "estado": true
     },
     {
       "id": 3,
       "username": "kevin",
       "email": "kevin@gmail.com",
       "password": "kevin",
-      "rol": "comprador"
+      "rol": "comprador",
+      "estado": true
     },
     {
       "id": 4,
-      "username": "marta",
+      "username": "martajeje",
       "email": "marta@gmail.com",
       "password": "marta",
-      "rol": "vendedor"
+      "rol": "vendedor",
+      "estado": false,
+      "modifiedAt": 1719787656786
     },
     {
       "id": 5,
       "username": "martina",
       "email": "martina@gmail.com",
       "password": "martina",
-      "rol": "vendedor"
+      "rol": "vendedor",
+      "estado": true
     }
   ],
   "products": [
     {
       "id": 1,
-      "productSeller": "marta",
+      "productSeller": "martajeje",
       "productTitle": "remera",
       "product1Category": "mujer",
       "product2Category": "partes de arriba",
@@ -65,7 +71,7 @@
       "imageUrl": "https://argentina-media.renuevatucloset.com/product/0259/72/thumb_25871162_product_medium.jpeg",
       "estadoComprado": false,
       "estado": true,
-      "modifiedAt": 1719582807557
+      "modifiedAt": 1719774874111
     },
     {
       "id": 2,
@@ -96,7 +102,7 @@
       "estado": true
     },
     {
-      "productSeller": "marta",
+      "productSeller": "martajeje",
       "productTitle": "pantalon",
       "product1Category": "mujer",
       "product2Category": "partes de abajo",
@@ -108,11 +114,11 @@
       "estadoComprado": false,
       "estado": true,
       "createdAt": 1719498309697,
-      "modifiedAt": 1719584518072,
+      "modifiedAt": 1719774874157,
       "id": 4
     },
     {
-      "productSeller": "marta",
+      "productSeller": "martajeje",
       "productTitle": "pollera",
       "product1Category": "mujer",
       "product2Category": "partes de abajo",
@@ -124,7 +130,7 @@
       "estadoComprado": false,
       "estado": true,
       "createdAt": 1719503336974,
-      "modifiedAt": 1719503336974,
+      "modifiedAt": 1719774874148,
       "id": 5
     }
   ]
